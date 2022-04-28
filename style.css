@@ -1,0 +1,82 @@
+.corpo{
+    width: 800px;
+    position: absolute;
+    left:50%;
+    margin-left: -400px;
+}
+.dossiê_cabecalho{
+    height: 100px;
+}
+.logo_dossie{
+    width:100px;
+    float:left;
+}
+.txt_cabecalho{
+    width: 60%; float:left; 
+    border-left: 1px solid black; 
+    margin-left:20px; 
+    padding-left: 40px
+}
+.titulo_dossie{
+    text-align: center;
+    width:100%; 
+    height:50px;
+}
+
+
+.pagina1{
+    height:820px;
+    width:90%;
+    border:1px solid black; 
+    padding:15px;
+}
+.caixa_nome{
+    float: left; 
+    padding-left: 10px;
+}
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.denomeinacao{
+    color: royalblue; 
+    border: 1px solid royalblue; 
+    padding: 5px; 
+    margin-left: 10px; 
+    font-size: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caixa_dados{
+    float: left; 
+    width: 100%;
+}
+.caixa_foto_perfil{
+    float: left; 
+    width: 28%; 
+    height: 220px;
+}
+.foto{
+    float: right;
+}
+.caixa_lista_dados1{
+    float: left; 
+    width: 62%;
+}
+.lista_dados1{
+    padding: 0px; 
+    margin: 0px;
+    list-style: none;
+}
+.dados_iniciais1{
+    margin-top: 10px; 
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 14px;
+}
+.pgts_dados1{
+    padding-left: 10px;
+}
+.rspts_dados1{
+    margin-top: 2px; 
+    margin-left: 3px;
+}

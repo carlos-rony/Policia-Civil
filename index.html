@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div  class="corpo">
+
+
+        <div class="dossiê_cabecalho">
+
+            <div class="logo_dossie">
+                <img height="100"
+                    src="data:image/png;base64,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">
+            </div>
+            <div class="txt_cabecalho">
+                <span>Secretaria da Segurança Pública</span><br />
+                <span>POLÍCIA CIVIL DO ESTADO DE SÃO PAULO</span><br />
+                <span>Departamento Estadual de Investigações Criminais - DEIC</span><br />
+                <span>Divisão de Investigação de Crimes Contra o Patrimônio - DISCCPAT</span><br />
+                <span>5ª Delegacia de Polícia - ROUBO A BANCOS</span>
+
+            </div>
+        </div>
+        <div class="titulo_dossie">
+            <p><strong><u>DOSSIÊ DA PESSOA</u></strong></p>
+        </div>
+        <div class="pagina1">
+            <div>
+                <p>
+                <h2 class="caixa_nome"><b class="nome">JOAQUIM ALMEIDA FELIX </b>
+                    <span class="denomeinacao">CIVIL</span>
+                </h2>
+                </p>
+                <div class="caixa_dados">
+                    <div class="caixa_foto_perfil">
+                        <img src="/foto1.png" class="foto">
+                    </div>
+                    <div class="caixa_lista_dados1">
+                        <ul class="lista_dados1" style="padding: 0px; margin: 0px;">
+                            <li class="dados_iniciais1">
+                                <p class="pgts_dados1"><b>Documento de identificação</b> <br>
+                                    <small class="rspts_dados1">RG 1111111 /
+                                        CPF Não informado</small>
+                                </p>
+                            </li>
+                            <li class="dados_iniciais1">
+                                <p class="pgts_dados1"><b>Imformaçções Pessoais</b> <br>
+                                    <small class="rspts_dados1">11/11/2000(20 anos), false,
+                                        Casado(a), Masculino, Segundo Grau, Administrador</small>
+                                </p>
+                            </li>
+                            <li class="dados_iniciais1">
+                                <p class="pgts_dados1"><b>Endereço</b> <br>
+                                    <small class="rspts_dados1">Rua almirante lobo 232, S Paulo,
+                                        SP</small>
+                                </p>
+                            </li>
+                            <li class="dados_iniciais1">
+                                <p class="pgts_dados1"><b>Caracteristicas Fisicas</b> <br>
+                                    <small class="rspts_dados1">Cabelo Caddanho, Olhos Castanhos
+                                        claros e Pele Amarela</small>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="border: 1px solid black; float: left; width: 100%;">
+                    <span
+                        style="float: left; margin-top: 20px; padding-left: 10px; width: 100%;"><strong><u>CNH</u></strong></span>
+                    <table width="100%" style="margin-top: 20px; float: left; ">
+                        <tr style="padding-left: 10px;">
+                            <th width="" style="font-family: Arial; font-size: 14px;">Condutor</th>
+                            <th width="" style="font-family: Arial; font-size: 14px;">Registro</th>
+                            <th width="" style="font-family: Arial; font-size: 14px;">Categoria</th>
+                            <th width="" style="font-family: Arial; font-size: 14px;">Validade</th>
+                        </tr>
+                        <tr style="padding-left: 50px; width: 100%; text-align: center;">
+                            <td style="width: 25%; padding-top: 5px;font-family: Arial; font-size: 14px;">Joaquim Almeida Felix</td>
+                            <td style="width: 25%; padding-top: 5px;font-family: Arial; font-size: 14px;">65656565555656565</td>
+                            <td style="width: 25%; padding-top: 5px;font-family: Arial; font-size: 14px;">A</td>
+                            <td style="width: 25%; padding-top: 5px;font-family: Arial; font-size: 14px;">10/10/2025</td>
+                        </tr>
+                        <tr>
+                            <th style="padding-top: 25px;">Endereço</th>
+                        </tr>
+                        <tr>
+                            <td style="margin-bottom: 10px; float: left; width:210%; padding-left: 20px; padding-top: 5px;">Rua José Bonifácio, 52 - São Paulo/SP - CEP:07777-00</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style="border: 1px solid black; float: left; width: 100%; margin-top: 30px;">
+                    <span
+                        style="float: left; margin-top: 20px; padding-left: 10px; width: 100%; padding-bottom: 20px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 16px;">RG´s</strong></span>
+                    <table width="100%" style="margin-top: 20px; ">
+                        <tr style="text-align: left;">
+                            <th width="" style="font-family: Arial; font-size: 14px;padding-left:5px">#</th>
+                            <th width="" style="font-family: Arial; font-size: 14px;">RG</th>
+                            <th width="" style="font-family: Arial; font-size: 14px;">Origem</th>
+                        </tr>
+                        <tr style="text-align: left;">
+                            <td style="width: 1%; padding-top: 15px; padding-left: 5px;">1</td>
+                            <td style="width: 1%; padding-top: 15px;">46.666.668-0</td>
+                            <td style="width: 2%; padding-top: 15px;">Criminal</td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="border: 1px solid black; float: left; width: 100%; margin-top: 20px">
+                    <span
+                        style="float: left; margin-top: 20px; padding-left: 10px; width: 100%;"> <strong><u>Criminal</u></strong></span>
+                    <table width="100%">
+                        <tr style="text-align: left; padding-top: 5px; float: left;">
+                            <th width="" style="font-family: Arial; font-size: 14px; padding-left: 3px;">Documentos de Identificação</th>
+                        </tr>
+                        <tr style="text-align: left;">
+                            <td style="width: 10%; padding-left: 5px;">RG 111111111 / CPF Não informado</td>
+                        </tr>
+                        <tr>
+                            <th style="float: left; padding-top: 20px;">Informações Pessoais</th>
+                        </tr>
+                        <tr>
+                            <td>11/11/2000(20),false,Casado(a),Masculino,Segundo,Administrador(a)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div style="height:830px;width:90%;border:1px solid black; padding:15px; margin-top: 20px;">
+            <div style="float: left; width: 100%; border: 1px solid black; margin-top: 35px;">
+                <table>
+                <tr>
+                    <th style="text-align: left; width: 100%; font-family: Arial, Helvetica, sans-serif;font-size: 15px; padding-top: 10px; padding-left: 10px;">Endereço</th>
+                </tr>
+                <tr>
+                    <td style="width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding-left: 10px;">Rua almirante lobo, 232,S Paulo, SP</td>
+                </tr>
+                <tr>
+                    <th style="text-align: left; padding-top: 20px;font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding-left: 10px;">Caracteristicas</th>
+                </tr>
+                <tr>
+                    <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding-left: 10px;">Cabelo Castanhos claros, Olhos Castanhos claros e Pele Amerela</td>
+                </tr>
+            </table>
+            </div>
+
+            <div style="float: left; width: 100%; border: 1px solid black; margin-top: 85px;">
+                <span style="font-family: 'Arial Narrow', Arial, sans-serif; font-size: 17px; float: left; margin-top: 20px; padding-left: 15px; width: 100%;"><strong><u>Pessoas relacionadas</u></strong></span>
+                <span style="padding-bottom: 10px; float: left;">
+                    <img src="foto2.png" style="float: left; margin-left: 25px; padding-top: 20px;">
+                    <img src="foto3.png" style="float: left; margin-left: 30px; padding-top: 20px;">
+                </span>
+            </div>
+
+            <div style="float: left; width: 100%; border: 1px solid black; margin-top: 35px;">
+                <span style="width: 100%; font-size: 18px; font-family: arial; padding-left: 15px;padding-top: 20px; float: left;"><strong><u>Inquéritos</u></strong></span>
+
+                <table>
+                    <tr style="text-align: center;float: left; padding-top: 20px;">
+                        <th style="padding-left: 30px; font-size: 13px ;">#</th>
+                        <th style="padding-left: 35px; font-size: 13px ">Número/Ano</th>
+                        <th style="padding-left: 35px; font-size: 13px ">Deleagcia</th>
+                        <th style="padding-left: 45px; font-size: 13px "> Vítima</th>
+                        <th style="padding-left: 30px; font-size: 13px ">Data do fato</th>
+                        <th style="padding-left: 30px; font-size: 13px ">Data da Instauração</th>
+                        <th style="padding-left: 30px; font-size: 13px "> incidência Penal</th>
+                    </tr>
+                    <tr style="float: left; padding-left: 30px; width: 100%; font-size: 13px; margin-top: 10px;">
+                        <td>1 </td>
+                        <td style="padding-left: 40px;">100000/2020</td>
+                        <td style="padding-left: 20px;">70 D.P. - Vila Ema </td>
+                        <td style="padding-left: 20px;"> João Lima </td>
+                        <td style="padding-left: 30px;">10/01/2000 </td>
+                        <td style="padding-left: 40px;">10/01/2009 </td>
+                        <td style="padding-left: 80px;">Art.50 </td>
+                    </tr>
+                    <tr style="float: left; padding-left: 30px; width: 100%; font-size: 13px; margin-top: 5px; padding-bottom:21px;">
+                        <td> 2</td>
+                        <td style="padding-left: 40px;">200000/2020</td>
+                        <td style="padding-left: 20px;">70 D.P. - Vila Ema</td>
+                        <td style="padding-left: 20px;">Joana Silva</td>
+                        <td style="padding-left: 30px;"> 05/01/2000</td>
+                        <td style="padding-left: 40px;"> 10/02/2009</td>
+                        <td style="padding-left: 80px;"> Art.10</td>
+                    </tr>
+                </table>
+            </div>
+            <div style="float: left; width: 100%; border: 1px solid black; margin-top: 35px;">
+                <span style="width: 100%; font-size: 18px; font-family: arial; padding-left: 15px;padding-top: 20px; float: left;"><strong><u>Processos</u></strong></span>
+                <table>
+                    <tr style="text-align: center;float: left; padding-top: 5px;">
+                        <th style="padding-left: 25px; font-size: 13px ;">#</th>
+                        <th style="padding-left: 20px; font-size: 13px ;" >Número/Ano</th>
+                        <th style="padding-left: 10px; font-size: 13px ;" >Autoridade Judiciária</th>
+                        <th style="padding-left: 10px; font-size: 13px ;">Tipo</th>
+                        <th style="padding-left: 20px; font-size: 13px ;">Data da decisão</th>
+                        <th style="padding-left: 20px; font-size: 13px ;">Situação</th>
+                        <th style="padding-left: 20px; font-size: 13px ;">Nº/Ano <br> Inquérito</th>
+                        <th style="padding-left: 10px; font-size: 13px ;">Incedência <br> Penal</th>
+                        <th style="padding-left: 10px; font-size: 13px ;">Incidência <br> Penal</th>
+                    </tr>
+                    <tr style="float: left; padding-left: 30px; width: 100%; font-size: 11px;">
+                        <td style="padding-left: 0;">1</td>
+                        <td style="padding-left: 35px;">2/2020</td>
+                        <td style="padding-left: 45px;">2º V CRIM ASSIS</td>
+                        <td style="padding-left: 25px;">Comum</td>
+                        <td style="padding-left: 45px;">10/01/2010</td>
+                        <td style="padding-left: 25px;">Condenado</td>
+                        <td style="padding-left: 30px;">10/2012</td>
+                        <td style="padding-left: 45px;">Art. <br> 50/Part02</td>
+                        <td style="padding-left: 15px;">2 anos 5 <br>meses, 10 dias <br> da reclusão</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
