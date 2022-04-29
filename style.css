@@ -24,6 +24,9 @@
 }
 
 
+
+
+
 .pagina1{
     height:820px;
     width:90%;
@@ -79,4 +82,607 @@
 .rspts_dados1{
     margin-top: 2px; 
     margin-left: 3px;
+}
+.caixa_cnh{
+    border: 1px solid black; 
+    float: left;
+    width: 100%;
+}
+.titulo_cnh{
+    float: left; 
+    margin-top: 20px; 
+    padding-left: 10px; 
+    width: 100%;
+
+}
+.tbl_cnh{
+    margin-top: 20px; 
+    float: left;
+}
+.titulos_tbl_cnh{
+    font-family: Arial; 
+    font-size: 14px;
+}
+.registros_tbl_cnh{
+    padding-left: 50px; 
+    width: 100%; 
+    text-align: center;
+}
+.registros_cnh{
+    width: 25%; 
+    padding-top: 5px;
+    font-family: Arial; 
+    font-size: 14px;
+}
+.titulo_endereco_tbl_cnh{
+    padding-top: 25px;
+}
+.registro_endereco_tbl_cnh{
+    margin-bottom: 10px; 
+    float: left; 
+    width:210%; 
+    padding-left: 20px; 
+    padding-top: 5px;
+}
+.caixa_rg{
+    border: 1px solid black; 
+    float: left; 
+    width: 100%; 
+    margin-top: 30px;
+}
+.titulo_rg{
+    float: left; 
+    margin-top: 20px; 
+    padding-left: 10px; 
+    width: 100%; 
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+}
+.tbl_rgs{
+    margin-top: 20px;
+}
+.caixa_titulo_tbl_reg{
+    text-align: left;
+}
+.titulos_tbs_rgs{
+    font-family: Arial; 
+    font-size: 14px;
+    padding-left:5px
+}
+.registro_tbl_rgs{
+    width: 1%; 
+    padding-top: 15px; 
+    padding-left: 5px;
+}
+.caixa_tb_criminal{
+    border: 1px solid black; 
+    float: left; 
+    width: 100%; 
+    margin-top: 20px
+}
+.titulo_crimianl{
+    float: left; 
+    margin-top: 20px;
+    padding-left: 10px; 
+    width: 100%;
+}
+.caixa_tbl_titulo_criminal{
+    padding-top: 5px; 
+    float: left;
+}
+.tbl_titulo_criminal{
+    font-family: Arial; 
+    font-size: 14px; 
+    padding-left: 3px;
+}
+.registro_tbl_criminal{
+    width: 10%; 
+    padding-left: 5px;
+}
+.tbl_titulo2_criminal{
+    font-family: Arial; 
+    font-size: 14px; 
+    float: left; 
+    padding-top: 20px; 
+    padding-left: 3px;
+}
+
+
+
+
+
+
+
+.pagian2{
+    height:830px;
+    width:90%;
+    border:1px solid black; 
+    padding:15px; 
+    margin-top: 20px;
+}
+.caixa_tbl_endereco{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 35px;
+}
+.titulo_endereco_tbl{
+    width: 100%; 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    padding-top: 10px; 
+    padding-left: 10px;
+}
+.registro_tbl_endereco{
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    padding-left: 10px;
+}
+.caixa_tb_pessoas_relacionadas{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 85px;
+}
+.titulo_tbl_pessoas_relacionadas{
+    font-family: Arial, sans-serif; 
+    font-size: 17px; 
+    float: left; 
+    margin-top: 20px; 
+    padding-left: 15px; 
+    width: 100%;
+}
+.caixa_fotos_tbl_pessoas_relacionadas{
+    padding-bottom: 10px; 
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.caixa_tbl_inqueritos{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 35px;
+}
+.titulo_inqueritos{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.titulo1_inquiritos_tbl{
+    text-align: center;
+    float: left; 
+    padding-top: 20px;
+}
+.titulo1_inquiritos{
+    padding-left: 35px; 
+    font-size: 13px;
+    padding-top: 5px;
+}
+.titulo2_inquiritos{
+    padding-left: 35px; 
+    font-size: 13px 
+}
+.titulo3_inquiritos{
+    padding-left: 45px; 
+    font-size: 13px;
+}
+.titulo4_inquiritos{
+    padding-left: 15px; 
+    font-size: 13px;
+    padding-top: 5px;
+}
+.registros_tbl_inqueritos{
+    float: left; 
+    padding-left: 30px; 
+    width: 100%; 
+    font-size: 13px; 
+    margin-top: 10px;
+}
+.registro1_inqueritos{
+    padding-left: 40px;
+}
+.registro2_inqueritos{
+    padding-left: 20px;
+}
+.registro3_inqueritos{
+    padding-left: 40px;
+}
+.registro4_inqueritos{
+    padding-left: 75px;
+}
+.caixa_processos{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 35px;
+}
+.titulo_processos{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.caixa_titulos_tbl_processos{
+    text-align: center;
+    float: left; 
+    padding-top: 5px;
+}
+.titulo1_tbl_processos{
+    padding-left: 25px; 
+    font-size: 13px ;
+}
+.titulo2_tbl_processos{
+    padding-left: 20px; 
+    font-size: 13px ;
+}
+.titulo3_tbl_processos{
+    padding-left: 10px; 
+    font-size: 13px ;
+}
+.caixa_registros_tbl_processos{
+    float: left; 
+    padding-left: 30px; 
+    width: 100%; 
+    font-size: 11px;
+}
+.registro1_tbl_processo{
+    padding-left: 35px;
+}
+.registro2_tbl_processo{
+    padding-left: 45px;
+}
+.registro3_tbl_processo{
+    padding-left: 25px;
+}
+.registro4_tbl_processo{
+    padding-left: 30px;
+}
+.registro5_tbl_processso{
+    padding-left: 15px;
+}
+
+
+
+
+.pagian3{
+    height:990px;
+    width:90%;
+    border:1px solid black; 
+    padding:15px; 
+    margin-top: 20px;
+}
+.caixa_mandado{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.titulo_mandados{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.txt_mandados{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+    float: left;
+}
+.caixa_veiculos_anteriores{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.titulo_veiculos_anteriores{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.txt_veiculos_anteriores{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+    float: left;
+}
+
+.caixa_outros_nomes{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.titulo_outros_nomes{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.txt_outros_nomes{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+    float: left;
+}
+.caixa_ocorencia{
+    border: 1px solid black; 
+    float: left; 
+    width: 100%; 
+    margin-top: 20px;
+}
+.titulo_ocorencia{
+    float: left; 
+    margin-top: 20px; 
+    padding-left: 10px; 
+    width: 100%; 
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+}
+.tbl_ocorencia{
+    margin-top: 20px;
+}
+.caixa_titulo_ocorencia_reg{
+    text-align: left;
+}
+.titulos_ocorencia_rgs{
+    font-family: Arial; 
+    font-size: 14px;
+    padding-left:5px
+}
+.registro_tbl_ocorencia{
+    width: 1%; 
+    padding-top: 15px; 
+    padding-left: 15px;
+    font-family: arial;
+    font-size: 14px;
+}
+.caixa_mapa{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.titulo_mapa{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.mapa{
+    padding-top: 20px;
+    float: left;
+    padding-left: 40px;
+}
+
+
+
+
+
+.pagina4{
+    height:900px;
+    width:90%;
+    border:1px solid black; 
+    padding:15px; 
+    margin-top: 20px;
+}
+.caixa_veiculos_anteriores{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.titulo_veiculos_anteriores{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.txt_veiculos_anteriores{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+    float: left;
+}
+.caixa_veiculos_atuais{
+    float: left; 
+    width: 100%; 
+    border: 1px solid black; 
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.titulo_veiculos_atuais{
+    width: 100%; 
+    font-size: 18px; 
+    font-family: arial; 
+    padding-left: 15px;
+    padding-top: 20px; 
+    float: left;
+}
+.txt_veiculos_atuais{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+    float: left;
+}
+.caixa_outros_enderecos{
+    border: 1px solid black; 
+    float: left; 
+    width: 100%; 
+    margin-top: 20px;
+}
+.titulo_outros_enderecos{
+    float: left; 
+    margin-top: 20px; 
+    padding-left: 10px; 
+    width: 100%; 
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+}
+.tbl_outros_enderecos{
+    margin-top: 20px;
+}
+.caixa_titulo_outros_enderecos_reg{
+    text-align: left;
+}
+.titulos_outros_enderecos_rgs{
+    font-family: Arial; 
+    font-size: 14px;
+    padding-left:15px
+}
+.registro_tbl_outros_enderecos{
+    width: 1%; 
+    padding-top: 15px; 
+    padding-left: 25px;
+    font-family: arial;
+    font-size: 14px;
+}
+.registro_tbl_outros_enderecos2{
+    width: 1%; 
+    padding-top: 15px; 
+    padding-left: 5px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+
+
+
+
+.pagina5{
+    height:930px;
+    width:90%;
+    border:1px solid black; 
+    padding:15px; 
+    margin-top: 20px;
+}
+.caixa_fotos{
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+}
+.titulo_fotos{
+    float: left; 
+    margin-top: 30px; 
+    padding-left: 20px; 
+    width: 100%; 
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 17px;
+}
+.foto1{
+    padding: 15px;
+    width: 95%;
+}
+.foto2{
+    padding: 15px;
+    width: 50%;
+    height: 300px;
+}
+
+
+
+
+
+.pagina6{
+    height:900px;
+    width:90%;
+    border:1px solid black; 
+    padding:15px; 
+    margin-top: 20px;
+}
+.caixa_final{
+    width: 100%;
+    height: 895px;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+.caixa_foto_final{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.foto_final{
+    padding-top: 25px;
+    margin-bottom: 230px;
+}
+.rodape_dossie{
+    width: 100%;
+    height: 85px;
+    float: left;
+    justify-content: center;
+    display: flex;
+}
+.rodape{
+    width: 90%;
+    height: 150px;
+    border-top: 1px solid black;
+    justify-items: center;
+}
+.dados_rodape{
+    width: 80%;
+    float: left;
+    height: 40%;
+    text-align: center;
+}
+.nome_usuario{
+    margin-top: 15px;
+    float: left;
+    border-right: 1px solid black;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content:center;
+}
+.data_dossie_rodape{
+    float: right;
+    height: 40%;
+    width: 20%;
+    text-align: center;
+}
+.data_rodape{
+    margin-top: 20px;
+    float: right;
+}
+.hora_rodape{
+    font-size: 10px;
 }
